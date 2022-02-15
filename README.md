@@ -44,3 +44,31 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+Meeting Log
+
+Contacts updates
+
+Update Professional PHD interests. 
+Student research Interests.
+Paige's Lab link http://clemsonhfse.com/
+
+FAQ addition. 
+Code Of Conduct on FAQ. 
+
+Swap team and research links on the header bar. 
+
+
+A11Y Pass Notes
+Video Preview objects. 
+Add Page Titles. 
+
+
+Things to lookinto.
+
+SVG in photoshop. 
+
+
+Reminder to push a resource page to head. 
