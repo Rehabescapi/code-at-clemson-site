@@ -1,3 +1,4 @@
+import { SkipNavLink } from "@reach/skip-nav";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Homepage } from "./pages";
@@ -10,6 +11,7 @@ import SignUp from "./pages/secondary/SignUp";
 function App() {
   return (
     <div className="App">
+      <SkipNavLink/>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/sign-up" element={<SignUp />} />

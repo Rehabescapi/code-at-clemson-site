@@ -1,11 +1,14 @@
 import { Box, Link as MaterialLink, Typography } from "@mui/material";
+import { SkipNavContent } from "@reach/skip-nav";
 import React, { PropsWithChildren } from "react";
 import { SecondaryPageHost } from "../../layout/SecondaryPage";
 import MaterialRouterLink from "../../utilities/react-router-interop/MaterialRouterLink";
 
 const FrequentlyAskedQuestions = () => {
   return (
+     
     <SecondaryPageHost>
+      <SkipNavContent/>
       <Typography textAlign="center" variant="h3" marginBottom={3}>
         Frequently Asked Questions
       </Typography>

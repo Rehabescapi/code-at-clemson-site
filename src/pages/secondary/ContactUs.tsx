@@ -1,12 +1,13 @@
 import { Typography } from "@mui/material";
 import { SecondaryPageHost } from "../../layout/SecondaryPage";
 import Section from "../../layout/Section";
-
+import { SkipNavContent} from "@reach/skip-nav";
 export {};
 
 const ContactUs = () => {
   return (
     <SecondaryPageHost>
+      <SkipNavContent />
       <Typography textAlign={"center"} variant="h3">
         Contact Us
       </Typography>

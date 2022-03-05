@@ -5,6 +5,8 @@ import React, { useState } from "react";
 import CGCC_PixelArt_Long_DragonFire from "../assets/img/cover/CGCC_PixelArt_Long_DragonFire.png";
 import { NavigationDrawer } from "../layout/Drawer";
 import MaterialButtonLink from "../utilities/react-router-interop/MaterialButtonLink";
+import { SkipNavContent} from "@reach/skip-nav";
+import "@reach/skip-nav/styles.css";
 
 const Component = () => (
   <Box
@@ -16,7 +18,9 @@ const Component = () => (
     }}
   >
     <Header />
-    <NextCampDates />
+    <SkipNavContent/>
+    <NextCampDates/>
+    
   </Box>
 );
 
@@ -54,6 +58,7 @@ const Header = () => {
             justifyContent: "center",
           }}
         >
+
           <Box
             sx={{
               display: "grid",
@@ -61,6 +66,7 @@ const Header = () => {
               width: 600,
             }}
           >
+           
             <MaterialButtonLink to="/sign-up" variant="text">
               Sign Up
             </MaterialButtonLink>
@@ -130,6 +136,7 @@ const NextCampDates = () => (
       },
     }}
   >
+    
     <img
       src={CGCC_PixelArt_Long_DragonFire}
       alt="Dragon and Knight"
@@ -148,6 +155,7 @@ const NextCampDates = () => (
         },
       }}
     >
+      
       <Typography
         variant="h4"
         component="p"
